@@ -3,7 +3,7 @@ package br.com.zup;
 public class Guerreiros extends Heroi{
 
     //atributos
-    public double poderAtaque;
+    private double poderAtaque;
 
 
     //construtor

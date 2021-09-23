@@ -3,7 +3,7 @@ package br.com.zup;
 public class Rasteiros extends Inimigos {
 
     //atributos
-    public double danoEspinhos;
+    private double danoEspinhos;
 
 
     //construtor
