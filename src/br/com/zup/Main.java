@@ -37,7 +37,7 @@ public class Main {
         Magos mago1 = new Magos("Sage",100,50);
 
         System.out.println(mago1.getNome());
-        mago1.receberDano(mago1.aplicarMagia());
+        //mago1.receberDano(mago1.aplicarMagia());
         System.out.println(mago1.exibirVida());
 
 
@@ -57,5 +57,20 @@ public class Main {
         System.out.println(voadores1.exibirVida());
 
 
+        //teste de combate
+        //Sage vs Abutre
+
+        System.out.println("Nome: " + mago1.getNome() + " Vida: " + mago1.exibirVida());
+        System.out.printf("%10s%n","x");
+        System.out.println("Nome: " + rasteiro1.getNome() + " Vida: " + rasteiro1.exibirVida());
+
+        rasteiro1.receberDano(mago1.aplicarMagia());
+        rasteiro1.receberDano(mago1.aplicarMagia());
+        mago1.receberDano(rasteiro1.aplicarDano());
+        mago1.receberDano(rasteiro1.aplicarDano());
+        System.out.println("Nome: " + mago1.getNome() + " Vida: " + mago1.exibirVida());
+        System.out.println("Nome: " + rasteiro1.getNome() + " Vida: " + rasteiro1.exibirVida());
+
     }
+
 }

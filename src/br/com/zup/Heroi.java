@@ -23,9 +23,6 @@ public class Heroi {
         return nome;
     }
 
-    public double getVida() {
-        return vida;
-    }
 
     public void setVida(double vida) {
         this.vida = vida;
