@@ -18,7 +18,6 @@ public class Guerreiros extends Heroi{
 
 
     //getters e setters
-
     public double getPoderAtaque() {
         return poderAtaque;
     }
@@ -30,6 +29,6 @@ public class Guerreiros extends Heroi{
 
     //Método para aplicar Magia
     public double aplicarDano(){
-        return aplicarDano();
+        return poderAtaque;
     }
 }
