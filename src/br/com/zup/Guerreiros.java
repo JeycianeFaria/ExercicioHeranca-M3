@@ -11,9 +11,9 @@ public class Guerreiros extends Heroi{
 
     }
 
-    public Guerreiros(String nome, double vida, double poderMagico) {
+    public Guerreiros(String nome, double vida, double poderAtaque) {
         super(nome, vida);
-        this.poderAtaque = poderMagico;
+        this.poderAtaque = poderAtaque;
     }
 
 
